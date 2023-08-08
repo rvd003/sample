@@ -1,0 +1,92 @@
+.container{
+    background-color: rgb(236, 219, 219);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#currentWeather{
+    background-color: rgb(216, 236, 243);
+}
+#forecast{
+background-color: rgb(216, 236, 243);;    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search-container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+    background-color: #1a2838;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1570d2;
+  }
+  
+  .weather-section {
+    margin-top: 20px;
+  }
+  
+  .weather-section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    margin: 30px 0;
+    border: 1px solid #ccc;
+  }
+  .Grid{
+display: grid;   
+grid-template-columns: repeat(1,1fr); 
+  }
+  .view{
+    background-color: #061b30;
+ 
+  }
+  view:hover {
+    background-color: #1570d2;
+  }
+  .button{
+    display: flex;
+    justify-content: center;
+  }
